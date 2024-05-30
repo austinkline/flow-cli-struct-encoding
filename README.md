@@ -116,3 +116,73 @@ transaction(name: String, code: String, arg0: Bar.B) {
     }
 }
 ```
+
+## Versions
+
+```
+➜  flow-cli-struct-encoding git:(main) flow-c1 version
+Version: v1.18.0-cadence-v1.0.0-preview.24
+Commit: 6aac3b6c7f510feaf7728a48dd8ffa020feb6a0a
+
+Flow Package Dependencies
+github.com/onflow/atree v0.7.0-rc.2
+github.com/onflow/cadence v1.0.0-preview.29
+github.com/onflow/cadence-tools/languageserver v1.0.0-preview.29
+github.com/onflow/cadence-tools/lint v1.0.0-preview.29
+github.com/onflow/cadence-tools/test v1.0.0-preview.29
+github.com/onflow/contract-updater/lib/go/templates v1.0.1
+github.com/onflow/crypto v0.25.1
+github.com/onflow/fcl-dev-wallet v0.8.0-stable-cadence.1
+github.com/onflow/flixkit-go v1.2.1-cadence-v1-preview.15
+github.com/onflow/flow-core-contracts/lib/go/contracts v1.1.0
+github.com/onflow/flow-core-contracts/lib/go/templates v1.0.0
+github.com/onflow/flow-emulator v1.0.0-preview.23
+github.com/onflow/flow-evm-gateway v0.11.0
+github.com/onflow/flow-ft/lib/go/contracts v1.0.0
+github.com/onflow/flow-ft/lib/go/templates v1.0.0
+github.com/onflow/flow-go v0.35.5-0.20240517202625-55f862b45dfd
+github.com/onflow/flow-go-sdk v1.0.0-preview.30
+github.com/onflow/flow-nft/lib/go/contracts v1.2.1
+github.com/onflow/flow-nft/lib/go/templates v1.2.0
+github.com/onflow/flow/protobuf/go/flow v0.4.3
+github.com/onflow/flowkit/v2 v2.0.0-stable-cadence-alpha.20
+github.com/onflow/go-ethereum v1.13.4
+github.com/onflow/sdks v0.5.1-0.20230912225508-b35402f12bba
+github.com/onflow/wal v1.0.2
+```
+
+```
+➜  flow-cli-struct-encoding git:(main) ✗ flow version
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                           ⚠ Upgrade to Cadence 1.0
+     The Crescendo network upgrade, including Cadence 1.0, is coming soon.
+     You may need to update your existing contracts to support this change.
+                     Please visit our migration guide here:
+             https://cadence-lang.org/docs/cadence_migration_guide
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Version: v1.17.1
+Commit: 2e4dfbe6ab7c23ce65269adbf6d9887cc0a89294
+
+Flow Package Dependencies
+github.com/onflow/atree v0.6.0
+github.com/onflow/cadence v0.42.10
+github.com/onflow/cadence-tools/languageserver v0.33.5-0.20240412233530-f5cf3a868fc6
+github.com/onflow/cadence-tools/lint v0.14.2
+github.com/onflow/cadence-tools/test v0.14.7
+github.com/onflow/crypto v0.25.1
+github.com/onflow/fcl-dev-wallet v0.7.4
+github.com/onflow/flixkit-go v1.1.3
+github.com/onflow/flow-core-contracts/lib/go/contracts v1.2.4-0.20231016154253-a00dbf7c061f
+github.com/onflow/flow-core-contracts/lib/go/templates v1.2.4-0.20231016154253-a00dbf7c061f
+github.com/onflow/flow-emulator v0.62.1
+github.com/onflow/flow-ft/lib/go/contracts v0.7.1-0.20230711213910-baad011d2b13
+github.com/onflow/flow-go v0.33.2-0.20240412174857-015156b297b5
+github.com/onflow/flow-go-sdk v0.46.2
+github.com/onflow/flow-nft/lib/go/contracts v1.1.0
+github.com/onflow/flow/protobuf/go/flow v0.4.0
+github.com/onflow/flowkit v1.17.3
+github.com/onflow/go-ethereum v1.13.4
+github.com/onflow/nft-storefront/lib/go/contracts v0.0.0-20221222181731-14b90207cead
+github.com/onflow/sdks v0.5.0
+github.com/onflow/wal v0.0.0-20240208022732-d756cd497d3b
+```
